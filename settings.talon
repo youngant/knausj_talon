@@ -7,7 +7,7 @@ settings():
     user.file_manager_auto_show_pickers = 0
 
     # Set the max number of command lines per page in help
-    user.help_max_command_lines_per_page = 50
+    user.help_max_command_lines_per_page = 40
 
     # Set the max number of contexts display per page in help
     user.help_max_contexts_per_page = 20
@@ -28,7 +28,7 @@ settings():
     user.mouse_wake_hides_cursor = 0
 
     # The amount to scroll up/down (equivalent to mouse wheel on Windows by default)
-    user.mouse_wheel_down_amount = 120
+    user.mouse_wheel_down_amount = 100
 
     # Mouse grid and friends put the number one on the bottom left (vs on the top left)
     user.grids_put_one_bottom_left = 1
@@ -48,4 +48,4 @@ settings():
     # user.context_sensitive_dictation = 1
 
 # uncomment tag to enable mouse grid
-# tag(): user.mouse_grid_enabled
+tag(): user.mouse_grid_enabled
