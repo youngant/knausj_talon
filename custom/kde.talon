@@ -20,6 +20,7 @@ weather: key("ctrl-super-w")
 redshift: key("alt-super-r")
 show internet: key("alt-super-i")
 show volume: key("alt-super-a")
+runner: key("super-space")
 
 hide note:
     user.mouse_helper_position_save()

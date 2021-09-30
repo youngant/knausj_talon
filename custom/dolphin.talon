@@ -1,6 +1,7 @@
 os: linux
 and app.name: dolphin
 -
+tag(): user.file_manager
 
 go back:
     key("alt-left")
@@ -9,7 +10,7 @@ go forward:
     key("alt-right")
 
 folder up:
-    key("alt-up"")
+    key("alt-up")
 
 search:
     key("ctrl-f")
