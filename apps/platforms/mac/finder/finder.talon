@@ -25,4 +25,10 @@ copy path: key(alt-cmd-c)
 trash it: key(cmd-backspace)
 
 hide [finder]: key(cmd-h)
-hide others: app.window_hide_others()
+hide others: app.window_hide_others() 
+
+open in terminal: key(alt-shift-cmd-t)
+
+folder new: key(shift-cmd-n)
+rename: key(alt–cmd-r)
+dive: key(cmd-down)
