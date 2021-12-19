@@ -121,11 +121,11 @@ clear down:
 clear word:
     edit.delete_word()
 
-clear word left:
+(clear word left|pop):
     edit.extend_word_left()
     edit.delete()
 
-clear word right:
+(clear word right|sop):
     edit.extend_word_right()
     edit.delete()
 
