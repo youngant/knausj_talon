@@ -19,6 +19,11 @@ class Actions:
         """Lists all directories including hidden"""
         actions.insert("ls -a")
         actions.key("enter")
+    
+    def terminal_list_directories_long():
+        """Lists directories in long format"""
+        actions.insert("ls -laFH")
+        actions.key("enter")    
 
     def terminal_change_directory(path: str):
         """Lists change directory"""

@@ -6,6 +6,7 @@ lisa:
     user.terminal_list_directories()
 lisa all: 
     user.terminal_list_all_directories()
+list long: user.terminal_list_directories_long()
 katie [<user.text>]: user.terminal_change_directory(text or "")
 katie root: user.terminal_change_directory_root()
 clear screen: user.terminal_clear_screen()
@@ -18,3 +19,5 @@ copy paste:
     edit.copy()
     sleep(50ms)
     edit.paste()
+
+clear line: key('ctrl-u')
