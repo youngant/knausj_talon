@@ -209,3 +209,6 @@ cell run above: user.vscode("jupyter.runallcellsabove.palette")
 cell run: user.vscode("jupyter.runcurrentcell")
 
 install local: user.vscode("workbench.extensions.action.installVSIX")
+
+# LaTeX
+sync (position | tech): user.vscode("latex-workshop.synctex")
